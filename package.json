@@ -2,11 +2,12 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "api/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-   "start": "node api/index.js",
-    "server": "nodemon api/index.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
+   
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "firebase-admin": "^12.2.0",
+    "firebase-functions": "^5.0.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.3",
     "multer": "^1.4.5-lts.1",
